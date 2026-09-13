@@ -16,5 +16,7 @@ package-lock.json
 
 # Per-agent scratch memory written by review subagents; never part of the tree.
 .claude/agent-memory/
+# .claude/hook-cache left in worktrees; ignored so plain `git worktree remove` works without --force
+.claude/hook-cache/
 # Local artifact inbox written by the save-artifact skill; the committed copy lives under docs/artifacts/
 .claude/artifacts/
